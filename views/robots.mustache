@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <title> Robo-Hunting </title>
+  <meta charset="utf-8">
+  <link
+  rel="stylesheet" href="/main.css" >
+</head>
+
+<body>
+    <main class="container">
+      {{ #noms }}
+        <div class="robo">
+          <img src={{avatar}}>
+          <h1>{{name}}</h1>
+          <p>{{company}}</p>
+        </div>
+      {{/noms}}
+    </main>
+
+</body>
+</html>
